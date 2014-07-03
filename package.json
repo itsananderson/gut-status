@@ -1,6 +1,6 @@
 {
   "name": "gut-status",
-  "version": "0.0.3",
+  "version": "0.1.0",
   "description": "A CLI utility called \"gut\", for those unfortunate Git typos",
   "main": "index.js",
   "bin": {
