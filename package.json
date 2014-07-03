@@ -1,0 +1,27 @@
+{
+  "name": "gut-status",
+  "version": "0.0.1",
+  "description": "A CLI utility called \"gut\", for those unfortunate Git typos",
+  "main": "index.js",
+  "bin": {
+    "gut": "./bin/gut-cli.js"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/itsananderson/gut-status.git"
+  },
+  "keywords": [
+    "git",
+    "gut",
+    "cli"
+  ],
+  "author": "Will Anderson",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/itsananderson/gut-status/issues"
+  },
+  "homepage": "https://github.com/itsananderson/gut-status"
+}
