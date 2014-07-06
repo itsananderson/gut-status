@@ -4,7 +4,11 @@ var stati = [
     'diuretic',
     'constipated',
     'twisted',
-    'cramped'
+    'cramped',
+    'surly',
+    'churlish',
+    'hungry',
+    'famished'
     // Have another idea? Submit a pull request or issue
     // https://github.com/itsananderson/gut-status/issues
 ];
