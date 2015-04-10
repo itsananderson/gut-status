@@ -8,7 +8,8 @@ var stati = [
     'surly',
     'churlish',
     'hungry',
-    'famished'
+    'famished',
+    'A little nauseous, actually. Yours?'
     // Have another idea? Submit a pull request or issue
     // https://github.com/itsananderson/gut-status/issues
 ];
