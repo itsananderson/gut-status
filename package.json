@@ -23,5 +23,8 @@
   "bugs": {
     "url": "https://github.com/itsananderson/gut-status/issues"
   },
-  "homepage": "https://github.com/itsananderson/gut-status"
+  "homepage": "https://github.com/itsananderson/gut-status",
+  "dependencies": {
+    "colors": "^1.1.0"
+  }
 }
