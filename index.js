@@ -1,3 +1,5 @@
+var util = require('util');
+
 var stati = [
     'irritable',
     'gassy',
@@ -9,14 +11,14 @@ var stati = [
     'churlish',
     'hungry',
     'famished',
-    'A little nauseous, actually. Yours?'
+    'nauseous'
     // Have another idea? Submit a pull request or issue
     // https://github.com/itsananderson/gut-status/issues
 ];
 
 function getStatus() {
     var index = Math.floor(Math.random() * stati.length);
-    return stati[index];
+    return util.format('A little %s, actually. Yours?', stati[index]);
 }
 
 module.exports = {
